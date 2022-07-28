@@ -1,0 +1,116 @@
+.projects {
+    width: 100%;
+    height: fit-content;
+    background-color: #242424;
+}
+
+.allProjects {
+    text-align: center;
+}
+
+/* Divider */
+
+.spacer {
+    aspect-ratio: 960/250;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: -100px;
+}
+
+.layer-1 {
+    background-image: url("layered-steps-haikei.svg");
+}
+
+.projects h1 {
+    text-align: center;
+    padding: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+
+
+.project-card {
+    width: 25%;
+    height: 300px;
+    background-color: #1d1d1d;
+    margin: 15px 25px 50px 25px;
+    padding: 5px;
+    display: inline-block;
+    text-align: left;
+    box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%),
+        0 4px 5px 0 rgb(0 0 0 / 14%),
+        0 1px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.project-card h2 {
+    color: azure;
+    margin-left: 10px;
+}
+
+.project-card p {
+    color: #a7a7a7;
+    margin-left: 10px;
+}
+
+.project-1 {
+    border-top: 3px solid #E4EE89;
+}
+
+.project-1 time {
+    color: #E4EE89;
+    font-size: 25px;
+    margin: 20px 15px;
+}
+
+.project-2 {
+    border-top: 3px solid #81D8F7;
+}
+
+.project-2 time {
+    color: #81D8F7;
+    font-size: 25px;
+    margin: 20px 15px;
+}
+
+.project-3 {
+    border-top: 3px solid #FD2155;
+}
+
+.project-3 time {
+    color: #FD2155;
+    font-size: 25px;
+    margin: 20px 15px;
+}
+
+.project-4 {
+    border-top: 3px solid #08fdd8;
+}
+
+.project-4 time {
+    color: #08fdd8;
+    font-size: 25px;
+    margin: 20px 15px;
+}
+
+.project-5 {
+    border-top: 3px solid orange;
+}
+
+.project-5 time {
+    color: orange;
+    font-size: 25px;
+    margin: 20px 15px;
+}
+
+/* @media only screen and (max-width: 600px) {
+    .textBox {
+        display: block;
+        margin-top: 300px;
+        margin-left: 0;
+    }
+} */

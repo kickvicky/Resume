@@ -1,0 +1,81 @@
+.skill-div {
+    /* width: 100%; */
+    min-height: 400px;
+    padding: 50px;
+    background-color: rgb(86, 0, 144);
+    font-family: 'Kanit', sans-serif;
+}
+
+.heading {
+    text-align: center;
+}
+
+p {
+    display: inline;
+}
+
+.header {
+    color: rgb(244, 237, 237);
+    font-size: 75px;
+    /* text-align: center; */
+}
+
+.heading img {
+    width: 50px;
+    margin-top: -40px;
+
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 200px;
+    color: rgb(245, 240, 240);
+    font-weight: 700;
+}
+
+.items {
+    text-align: center;
+    margin: 25px;
+}
+
+.items img {
+    width: 100px;
+    margin: 15px;
+}
+
+.items h2 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.domain-1 {
+    margin: 50px auto;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.domain {
+    margin: 50px auto;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.domain .items {
+    margin: 50px;
+}
+
+.items {
+    background-color: rgba(38, 241, 241, 0.497);
+    padding: 15px;
+    border-top: 3px solid rgba(228, 45, 45, 0.514);
+    border-bottom: 3px solid rgba(228, 45, 45, 0.514);
+    border-radius: 15px;
+}
+
+.items h1 {
+    padding: 10px;
+}

@@ -1,0 +1,77 @@
+.homeContent {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(27, 26, 26);
+    background-image: url('wormhole.webp');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.textBox {
+    display: inline-block;
+    margin: 100px 300px;
+    width: auto;
+    text-shadow: 3px 0 #DA0463;
+    font-family: 'Press Start 2P',
+        cursive;
+    font-size: 3rem;
+    color: #DBEDF3;
+    padding: 50px;
+    /* text-align: left; */
+}
+
+/* V */
+
+.v h1 {
+    font-size: 300px;
+    position: absolute;
+    transform: rotate(-5deg);
+    text-shadow: 10px 1px #adf0eb;
+    color: #DA0463;
+    left: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .textBox {
+        display: block;
+        margin-top: 300px;
+        margin-left: 0;
+    }
+}
+
+/* 
+.moonImg:hover {
+    animation: shake 2s;
+    animation-iteration-count: infinite;
+} */
+
+/* @keyframes shake {
+
+    25% {
+        transform: translate(0px, -25px);
+    }
+
+    75% {
+        transform: translate(0px, 25px);
+    }
+} */
+
+/* .asteroidImg {
+    width: 10%;
+    position: absolute;
+    right: 500px;
+    top: 100px;
+}
+
+.moonImg {
+    width: 15%;
+    position: absolute;
+    left: 30px;
+    top: 125px;
+} */
+
+/* Typer Effect -> react package */
